@@ -4,11 +4,8 @@ import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
 import Select from "react-select";
 
 export class Event extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
-    const dateValue: Date = new Date();
+    const dateValue = new Date();
     const options = [
       { value: "monday", label: "Monday" },
       { value: "tuesday", label: "Tuesday" },
